@@ -1,0 +1,70 @@
+<div id="content">
+<div class="container-fluid">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header" id="landing-header">
+                <a href="/landing"><img src="/Images/taticon.png" id="tatlogo"></a>           
+                <a href="/landing"><h2 class="navbar-brand">The Adaptive Traveler</h2></a> 
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="dropdown nav navbar-nav navbar-right" id="profile-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <img src="http://placehold.it/30x30" class="profile-image img-circle"> {{user.name}} <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    <li><a id="account-link"><i class="fa fa-cog"></i> Account</a></li>
+                    <li class="divider"></li>
+                    <li><a id="sign-out"><i class="fa fa-sign-out"></i> Sign-out</a></li>
+                </ul>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a id="contact-about" href="/contact">Contact</a>
+                    </li>
+                    <li>
+                        <a id="contact-about" href="/about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <div class="row" id="your-travels-section">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xl-8 col-xl-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel panel-header text-center" id="your-travels-header">
+                        Your Travels
+                    </div>
+                    <div class="panel panel-body" id="your-travels-body">
+                        <h3 id="travels-list">
+                            <ol>
+                                <li>
+                                    Los Angeles, California, USA - January 2013
+                                </li>
+                                <li>
+                                    Buenos Aires, Argentina - June 2014
+                                </li>
+                                <li>
+                                    Hong Kong, China - March 2015
+                                </li>
+                            </ol>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="wish-list-row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-xl-8 col-xl-offset-2">
+                <div class="panel panel-default" id="wish-list-panel">
+                    <div class="panel panel-header text-center" id="wish-list-header">
+                        Wish List
+                    </div>
+                    <div class="panel panel-body" id="wish-list-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="footer">
+        © 2017 The Adaptive Traveler
+    </footer>
