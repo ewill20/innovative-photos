@@ -1,0 +1,28 @@
+{
+  "name": "hoek",
+  "version": "1.0.0",
+  "description": "chinese photo website",
+  "main": "server.js",
+  "dependencies": {
+    "favicon": "^0.0.2",
+    "moment": "^2.22.2",
+    "npm": "^6.1.0",
+    "sequelize": "^4.37.10",
+    "sequelize-heroku": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewill20/innovative_photos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ewill20/innovative_photos/issues"
+  },
+  "homepage": "https://github.com/ewill20/innovative_photos#readme"
+}
