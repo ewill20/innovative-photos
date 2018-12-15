@@ -4,9 +4,10 @@
   "description": "chinese photo website",
   "main": "server.js",
   "dependencies": {
+    "express": "^4.16.4",
     "favicon": "^0.0.2",
     "moment": "^2.22.2",
-    "npm": "^6.1.0",
+    "npm": "^6.5.0",
     "sequelize": "^4.37.10",
     "sequelize-heroku": "^1.0.0"
   },
