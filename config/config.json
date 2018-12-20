@@ -1,9 +1,9 @@
 {
     "development": {
-        "username": "root",
-        "password": null,
-        "database": "innovative-photos",
-        "host": "127.0.0.1",
+        "username": "ut4gslupfy2sgw8y",
+        "password": "wjlmf7who565f9t7",
+        "database": "pjzs6xquujjtxr9q",
+        "host": "k9xdebw4k3zynl4u.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
         "dialect": "mysql"
     },
     "test": {
