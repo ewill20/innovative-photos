@@ -5,6 +5,10 @@ html, body {
 	padding: 0px;
 	overflow-x: hidden;
 }
+#iplogo {
+	height: 50px;
+	width: 50px;
+}
 div#content {
 	height: 100%;
 	
