@@ -453,7 +453,7 @@ input {
 	color: white !important;
 	font-size: 25px !important;
 }
-#iplogo {
+.iplogo {
 	height: 80px !important;
 	position: relative;
 	top: -9px;
