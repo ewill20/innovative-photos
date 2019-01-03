@@ -6,8 +6,8 @@ html, body {
 	overflow-x: hidden;
 }
 #americanflag {
-	height: 20px;
-	width: 20px;
+	height: 20px !important;
+	width: 20px !important;
 }
 div#content {
 	height: 100%;
